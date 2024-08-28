@@ -29,3 +29,8 @@ Group Member - 6
 
 Name - Teja Nagendra Sirigineedi
 Skills : Python,SQL
+
+Group Member - 7
+
+Name - Sai Sowjanya Edupuganti
+Skills : Python,SQL
