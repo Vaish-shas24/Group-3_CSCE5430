@@ -27,7 +27,7 @@ Skills : Python, SQL
 
 Group Member - 6
 
-Name - Teja Nagendra Sirigineedi
+Name - Teja Nagendra Sirigineedi - Presentation Lead
 Skills : Python,SQL
 
 Group Member - 7
