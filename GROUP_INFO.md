@@ -17,6 +17,7 @@ Name- Gayathri Vutla
 Group Member-4
 
 Name- Preethi Medipelli
+skills: Python, SQL
 
 Group Member - 5
 
