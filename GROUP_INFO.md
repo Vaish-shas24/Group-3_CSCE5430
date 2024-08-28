@@ -16,7 +16,7 @@ Name- Gayathri Vutla
 
 Group Member-4
 
-Name- Preethi Medipelli
+Name- Preethi Medipelli - Documentation Lead
 skills: Python, SQL
 
 Group Member - 5
