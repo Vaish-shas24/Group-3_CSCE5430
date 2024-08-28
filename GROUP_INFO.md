@@ -7,3 +7,8 @@ Skills: Python, SQL, DB Admistration
 Group Member-2
 
 Name- Katikala Damodar Reddy
+
+
+Group Member-3
+
+Name- Gayathri Vutla
