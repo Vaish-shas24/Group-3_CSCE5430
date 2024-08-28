@@ -6,8 +6,8 @@ Skills: Python, SQL, DB Admistration
 
 Group Member-2
 
-Name- Katikala Damodar Reddy
-
+Name- Katikala Damodar Reddy - Implementation Lead For Front End
+Skills: Python, Html, CSS, SQL
 
 Group Member-3
 
