@@ -22,3 +22,8 @@ Group Member - 5
 
 Name - Chopra Sai Arani
 Skills : Python, SQL
+
+Group Member - 6
+
+Name - Teja Nagendra Sirigineedi
+Skills : Python,SQL
