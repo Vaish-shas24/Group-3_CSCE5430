@@ -18,7 +18,7 @@ Name- Preethi Medipelli - Documentation Lead
 skills: Python, SQL
 
 Group Member - 5
-Name - Chopra Sai Arani
+Name - Chopra Sai Arani - Implementation Lead For Testing
 Skills : Python, SQL
 
 Group Member - 6
