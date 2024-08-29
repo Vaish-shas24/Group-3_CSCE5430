@@ -27,7 +27,7 @@ Skills : Python,SQL
 
 Group Member - 7
 Name - Sai Sowjanya Edupuganti
-Skills : Python,SQL
+Design Lead Skills : Python,SQL,Html,Css
 
 Group Member: 8
 Name - KarunyaMekala
