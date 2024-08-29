@@ -22,7 +22,7 @@ Name - Chopra Sai Arani - Implementation Lead For Testing
 Skills : Python, SQL
 
 Group Member - 6
-Name - Teja Nagendra Sirigineedi - Demo and Presentation Lead
+Name - Teja Nagendra Sirigineedi - Demo and Presentation Lead:
 Skills : Python,SQL
 
 Group Member - 7
