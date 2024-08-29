@@ -1,7 +1,7 @@
 # Group-3_CSCE5430
 Created by Vaishnavi Shastrula on 8/27/2024 02:14 PM
 Group Member 1
-Vaishnavi Shastrula - Project Management Leader
+Vaishnavi Shastrula - Project Management Lead
 Skills: Python, SQL, DB Admistration
 
 Group Member-2
