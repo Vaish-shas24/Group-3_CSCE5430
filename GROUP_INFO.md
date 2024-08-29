@@ -31,4 +31,4 @@ Design Lead Skills : Python,SQL,Html,Css
 
 Group Member: 8
 Name - KarunyaMekala
-Skills : python,SQL
+Skills :Requirements lead python,SQL
