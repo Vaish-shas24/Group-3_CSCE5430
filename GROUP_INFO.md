@@ -5,7 +5,7 @@ Vaishnavi Shastrula - Project Management Lead
 Skills: Python, SQL, DB Admistration
 
 Group Member-2
-Name- Katikala Damodar Reddy - Implementation Lead For Front End
+Name- Katikala Damodar Reddy - Implementation Lead For Front End,
 Skills: Python, Html, CSS, SQL
 
 Group Member-3
