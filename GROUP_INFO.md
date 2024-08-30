@@ -32,3 +32,7 @@ Design Lead Skills : Python,SQL,Html,Css
 Group Member: 8
 Name - KarunyaMekala
 Skills :Requirements lead python,SQL
+
+Group Member:9 
+Name - Shraehitha Reddy Banda
+Skill :Python,HTML,SQL
