@@ -10,7 +10,7 @@ Skills: Python, Html, CSS, SQL
 
 Group Member-3
 Name- Gayathri Vutla
-skills: Python, Java, SQL, Postman, API, Postgre, Machine learning, Javascript, Ajax.
+skills: Python, Java, SQL, Machine learning, Mongo DB, React Framework, HTML, CSS, and JavaScript.
 Backend Lead
 
 Group Member-4
