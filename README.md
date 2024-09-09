@@ -6,7 +6,7 @@ README
 This document outlines the structure of the ToyStation project repository, including the areas dedicated to source code, planning documents, meeting minutes, and project reports.
 
 ## Project Directory Structure
-
+```bash
 ToyStation-Project/
 │
 ├── src/
@@ -34,7 +34,7 @@ ToyStation-Project/
 ├── public/                # Public files accessible directly (images, static files)
 │
 └── README.md              # Project overview and directory structure
-
+```
 
 
 ## Key Directories
