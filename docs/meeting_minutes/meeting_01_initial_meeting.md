@@ -1,9 +1,5 @@
 # ToyStation Project - Initial Meeting Minutes
 
-**Date:** [Insert Date]
-
-**Time:** [Insert Time]
-
 **Attendees:**
 - Vaishnavi Shastrula
 - Karunya Mekala
@@ -15,28 +11,103 @@
 - Preethi Medipelli
 - Shraehitha Reddy Banda
 
-## Agenda:
-1. Introduction of team members and their roles.
-2. Overview of the project: ToyStation.
-3. Discussion of the project scope and key features.
-4. Setting up the GitHub repository and project directory structure.
-5. Initial planning and timeline overview.
-6. Risk management and identification of top 3 project risks.
 
-## Key Discussions:
-- **Project Scope:** Discussed the main features including the search bar, product categories, shopping cart, and checkout process.
-- **Technical Stack:** Finalized the stack as HTML, CSS, JavaScript, React.js for frontend; Node.js, Express.js for backend; and MongoDB for the database.
-- **Roles and Responsibilities:** Assigned specific roles to each team member.
-- **Project Repository:** Decision to set up a GitHub repository with the defined directory structure.
-- **Risks Identified:**
-  1. Potential delays in development due to scope changes.
-  2. Integration issues between frontend and backend.
-  3. Data security and privacy concerns during checkout.
 
-## Action Items:
-- [Team Member Name]: Create the initial project setup in GitHub.
-- [Team Member Name]: Draft the README.md with the directory structure.
-- [Team Member Name]: Set up the Kanban board for task tracking.
+# Meeting 1 Minutes
 
-**Next Meeting:** [Insert Date/Time]
+- **Date:** August 21st, 2024
+- **Time:** 3:00 PM - 3:30 PM
+- **Location:** Google Meet
+- **Attendees:** All team members
+
+### Agenda
+1. **Introduction**:
+   - Every team member introduced themselves and briefly explained their role in the project.
+
+2. **Shared Previous Experiences**:
+   - Discussed each member's origin and past employment history.
+   - Exchanged phone numbers and email addresses to improve communication.
+   - Set up a project-related group on a social media platform for better coordination.
+
+
+
+# Meeting 2 Minutes
+
+- **Date:** August 27th, 2024
+- **Time:** 3:00 PM – 4:00 PM
+- **Location:** Google Meet
+- **Attendees:** All team members
+
+### Agenda
+1. **GitHub and Trello Setup**:
+   - Successfully created GitHub and Trello accounts for each participant.
+   - Teja Nagendra Sirigineedi was nominated as the team lead.
+   - Established a group for project discussions.
+
+2. **Topic Selection**:
+   - Created an Excel sheet titled ‘Project Ideas and Features’.
+   - Each team member listed potential project ideas and features.
+   - Explored potential complexities of the proposed ideas for discussion in the next meeting.
+
+3. **Team Name**:
+   - Agreed on the team name: “Group-3 Team”.
+
+
+
+
+# Meeting 3 Minutes
+
+- **Date:** September 3rd, 2024
+- **Time:** 3:00 PM – 4:00 PM
+- **Location:** Teams
+- **Attendees:** All team members
+
+### Agenda
+1. **Project Confirmation**:
+   - Discussed various project possibilities and finalized ToyStation, the e-commerce site.
+   - Selected and ranked 15 characteristic features based on their significance.
+
+2. **Technology Selection**:
+   - Assessed team skills and identified areas of strength and weakness.
+   - Assigned technologies based on each member's expertise and learning objectives.
+
+3. **Leadership Roles Assigned**:
+   - Leadership roles were assigned based on experience and available backups.
+   - Introduced a new team member and established communication protocols.
+
+
+
+# Meeting 4 Minutes
+
+- **Date:** September 5th, 2024
+- **Time:** 9:00 PM – 10:00 PM
+- **Location:** google meet
+- **Attendees:** All team members
+
+### Agenda
+1. **Review of Previous Minutes**:
+   - Reviewed minutes from the previous meeting and discussed project deliverables.
+
+2. **Deliverable 1 Discussion**:
+   - Reflected on tasks outlined in Deliverable 1 and identified complex work areas.
+   - Assigned tasks to team members based on their skills and preferences.
+   - Scheduled an additional meeting on September 6th to address any backlogs.
+
+
+# Meeting 5 Minutes
+
+- **Date:** September 9th, 2024
+- **Time:** 2:00 PM – 8:30 PM
+- **Location:** offline meet
+- **Attendees:** All team members
+
+### Agenda
+1. **Verified In-Progress Tasks**:
+   - Reviewed the status of each task from Deliverable 1.
+   - Addressed backlogs and set a deadline of September 7th for task completion.
+   - Scheduled time on September 8th for PPT and video presentation preparation.
+
+2. **Offline Meeting**:
+   - Planned an offline meeting on September 10th for further replanning and coordination.
+
 
