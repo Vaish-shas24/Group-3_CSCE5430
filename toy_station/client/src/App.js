@@ -12,21 +12,23 @@ import Register from './components/Register';
 
 function App() {
   return (
-    <Provider store={store}>
-    <Router>
-    <div>
-      <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/all-orders" element={<AllOrders />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-      </Routes>
-    </div>
-  </Router>
-  </Provider>
+    // Making the Redux store available to all components
+    <Provider store={store}>  
+      <Router>
+        <div>
+          <Routes>
+            <Route path="/home" element={<Home />} />
+            <Route path="/all-orders" element={<AllOrders />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </Routes>
+        </div>
+      </Router>
+    </Provider>
   );
 }
 
 export default App;
+
