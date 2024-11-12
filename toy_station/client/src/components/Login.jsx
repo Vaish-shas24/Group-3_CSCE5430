@@ -12,7 +12,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', {
+      const response = await axios.post('http://localhost:7001/api/auth/login', {
         email,
         password,
       });
@@ -23,7 +23,6 @@ const Login = () => {
       // Navigate to another page after successful login
       window.location.href = '/home'; // Redirect to home page or dashboard
     } catch (error) {
-      console.error(error.response.data); // Handle errors
     }
   };
 
@@ -73,3 +72,4 @@ const Login = () => {
 };
 
 export default Login;
+
