@@ -9,24 +9,25 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import Login from './components/Login';
 import Register from './components/Register';
+import HelpSupport from './components/HelpSupport';
 
 function App() {
   return (
-    // Making the Redux store available to all components
-    <Provider store={store}>  
-      <Router>
-        <div>
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/all-orders" element={<AllOrders />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-          </Routes>
-        </div>
-      </Router>
-    </Provider>
+    <Provider store={store}>
+    <Router>
+    <div>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/all-orders" element={<AllOrders />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/help-support" element={<HelpSupport />} />
+      </Routes>
+    </div>
+  </Router>
+  </Provider>
   );
 }
 
