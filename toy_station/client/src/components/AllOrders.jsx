@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Container, ListGroup, Card } from 'react-bootstrap';
+import { Container, ListGroup, Card, Button } from 'react-bootstrap';
 import NavbarTop from './NavbarTop';
 import Footer from './Footer';
 
@@ -8,6 +8,20 @@ import Footer from './Footer';
 const AllOrders = () => {
   const [orders, setOrders] = useState([]);
   const userEmail = localStorage.getItem('email'); // Get user email from localStorage
+
+  const handleReturn = async (orderId, itemId) => {
+    try {
+      await axios.post(`/api/orders/return`, { orderId, itemId });
+      alert('Return request submitted successfully!');
+      
+      // fetch updated orders
+      const response = await axios.get(`/api/orders/user/${userEmail}`);
+      setOrders(response.data);
+    } catch (error) {
+      console.error('Error submitting return request:', error.response?.data || error.message);
+      alert('Failed to submit return request.');
+    }
+  };
 
   useEffect(() => {
     const fetchOrders = async () => {
@@ -43,6 +57,16 @@ const AllOrders = () => {
                       <span>{item.name}</span>
                       <span>Quantity: {item.quantity}</span>
                       <span>Price: ${item.total}</span>
+                      {item.returned && <span className="text-success">Returned</span>}
+                      {!item.returned && 
+                        <Button
+                          variant="warning"
+                          size="sm"
+                          onClick={() => handleReturn(order._id, item._id)} // Assuming item has an _id
+                        >
+                          Return
+                        </Button>
+                      }
                     </div>
                   </ListGroup.Item>
                 ))}
