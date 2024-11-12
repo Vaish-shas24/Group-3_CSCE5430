@@ -33,4 +33,30 @@ router.get('/user/:email', async (req, res) => {
   }
 });
 
+// Return order
+router.post('/return', async (req, res) => {
+  const { orderId, itemId } = req.body;
+
+  try {
+    const order = await Order.findById(orderId);
+    if (!order) {
+      return res.status(404).json({ message: 'Order not found' });
+    }
+
+    const item = order.orderItems.find(item => item._id.toString() === itemId);
+    if (!item) {
+      return res.status(404).json({ message: 'Item not found in order' });
+    }
+
+    item.returned = true;
+
+    await order.save();
+
+    res.status(200).json({ message: 'Item returned successfully' });
+  } catch (error) {
+    console.error('Error returning item:', error);
+    res.status(500).json({ message: 'Failed to return item', error });
+  }
+});
+
 module.exports = router;
