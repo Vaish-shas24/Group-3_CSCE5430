@@ -24,7 +24,7 @@ export default function NavbarTop() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="/home">CuisineConnect</Navbar.Brand>
+        <Navbar.Brand href="/home">Toy Station</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
@@ -40,6 +40,9 @@ export default function NavbarTop() {
             </LinkContainer>
             <LinkContainer to="/cart">
               <Nav.Link eventKey={4}>Cart</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/help-support">
+              <Nav.Link eventKey={5}>Help & Support</Nav.Link>
             </LinkContainer>
             <Nav.Link eventKey={6} onClick={handleLogout} style={{ cursor: 'pointer' }}>
               Logout
