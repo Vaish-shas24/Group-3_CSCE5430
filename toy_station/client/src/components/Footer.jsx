@@ -20,6 +20,7 @@ export default function Footer() {
                   <li><a href="/products">Shop</a></li>
                   <li><a href="/about">About Us</a></li>
                   <li><a href="/contact">Contact</a></li>
+                  <li><a href="/help-support">Help & Support</a></li>
                 </ul>
               </Col>
     
