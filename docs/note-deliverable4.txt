@@ -1,0 +1,27 @@
+# Deliverable 4 - Directory Structure
+
+Root Directory: /
+- toy-station/.DS_Store
+- toy-station/readme.md
+- toy-station/.gitignore
+- toy-station/server/.DS_Store
+- toy-station/server/server.js
+- toy-station/server/package-lock.json
+- toy-station/server/models/Order.js
+- toy-station/server/routes/order.js
+- toy-station/client/.DS_Store
+- toy-station/client/package-lock.json
+- toy-station/client/package.json
+- toy-station/client/src/App.js
+- toy-station/client/src/components/Footer.jsx
+- toy-station/client/src/components/Products.jsx
+- toy-station/client/src/components/HelpSupport.jsx
+- toy-station/client/src/components/Login.jsx
+- toy-station/client/src/components/AllOrders.jsx
+- toy-station/client/src/components/NavbarTop.jsx
+- toy-station/client/src/components/Register.jsx
+
+- docs/meeting_minutes/meeting_minutes_4.md
+- docs/reports/annotated-Deliverable_4.pdf
+
+- # End of Deliverable 4 File List
