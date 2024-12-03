@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Accordion, Card, Form, Button, Col, Row } from 'react-bootstrap';
+import NavbarTop from './NavbarTop';
+import Footer from "./Footer";
 
 const HelpSupport = () => {
   // List of Frequently Asked Questions
@@ -29,6 +31,8 @@ const HelpSupport = () => {
   };
 
   return (
+    <>
+      <NavbarTop />
     <Container className="mt-5">
       <h2>Help & Support</h2>
       <p>Find answers to common questions or submit a request if you need further assistance.</p>
@@ -98,6 +102,8 @@ const HelpSupport = () => {
         <Button variant="primary" type="submit">Submit Request</Button>
       </Form>
     </Container>
+    <Footer />
+    </>
   );
 };
 
