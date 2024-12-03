@@ -9,11 +9,12 @@ const Register = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [alertMessage, setAlertMessage] = useState(''); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:7001/api/auth/register', {
+      const response = await axios.post('https://toy-station-server.onrender.com/api/users/register', {
         username,
         email,
         password,
@@ -22,6 +23,7 @@ const Register = () => {
       // Navigate to the login page after successful registration
       window.location.href = '/'; // Redirect to login page
     } catch (error) {
+      setAlertMessage(error.response.data.message);
       console.error(error.response.data); // Handle errors
     }
   };
@@ -32,6 +34,7 @@ const Register = () => {
     <Container className="login-container">
       <Row className="justify-content-center">
       <h2>Register for Toy Station</h2>
+      {alertMessage && <p style={{ color: 'red' }}>{alertMessage}</p>}
       <Form onSubmit={handleSubmit} className="register-form">
         <Form.Group controlId="formBasicUsername">
           <Form.Label>Username</Form.Label>
