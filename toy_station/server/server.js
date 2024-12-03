@@ -1,20 +1,35 @@
 const express = require('express');
-const cors = require('cors');
-const connectDB = require('./config/db');
-const authRoutes = require('./routes/auth');
-const orderRoutes = require('./routes/order'); 
-require('dotenv').config();
+const dotenv = require('dotenv');
+const connectDB = require('./config/database');
+const userRoutes = require('./routes/userRoutes');
+const cors = require('cors'); // Import CORS middleware
 
-const app = express();
+const paymentRoutes = require('./routes/payment');
+
+dotenv.config();
 connectDB();
 
-app.use(cors());
-app.use(express.json());
+const app = express();
+// Middleware
 
-app.use('/api/auth', authRoutes);
-app.use('/api/orders', orderRoutes);
+app.use(cors({
+  origin: '*', // Allow all origins (not recommended for production)
+  methods: ['GET', 'POST', 'PUT'] // Allow specific HTTP methods
+}));
 
-const PORT = process.env.PORT || 7001;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.use(express.json()); // Body parser
+app.use((req, res, next) => {
+  console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+  next();
 });
+
+
+// Routes
+app.use('/api/users', userRoutes);
+app.use('/api/payment', paymentRoutes);
+
+
+
+const PORT = 7000;
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
