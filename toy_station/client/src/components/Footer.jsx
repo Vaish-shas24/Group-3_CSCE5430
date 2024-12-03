@@ -18,8 +18,8 @@ export default function Footer() {
                 <ul className="footer-links">
                   <li><a href="/">Home</a></li>
                   <li><a href="/products">Shop</a></li>
-                  <li><a href="/about">About Us</a></li>
-                  <li><a href="/contact">Contact</a></li>
+                  <li><a href="/AboutUs">About Us</a></li>
+                  <li><a href="/ContactUs">Contact</a></li>
                   <li><a href="/help-support">Help & Support</a></li>
                 </ul>
               </Col>
