@@ -1,0 +1,80 @@
+toy-station/
+├── client/
+│   ├── .DS_Store
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── build/
+│   │   ├── asset-manifest.json
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   ├── robots.txt
+│   │   ├── _redirects
+│   │   └── static/
+│   │       ├── css/
+│   │       │   ├── main.3d4cfc5a.css
+│   │       │   └── main.3d4cfc5a.css.map
+│   │       └── js/
+│   │           ├── 453.419a5d54.chunk.js
+│   │           ├── 453.419a5d54.chunk.js.map
+│   │           ├── main.8c8bd732.js
+│   │           ├── main.8c8bd732.js.LICENSE.txt
+│   │           └── main.8c8bd732.js.map
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── logo192.png
+│   │   ├── logo512.png
+│   │   ├── manifest.json
+│   │   ├── robots.txt
+│   │   └── _redirects
+│   └── src/
+│       ├── App.css
+│       ├── App.js
+│       ├── App.test.js
+│       ├── index.css
+│       ├── index.js
+│       ├── logo.svg
+│       ├── reportWebVitals.js
+│       ├── setupTests.js
+│       ├── components/
+│       │   ├── AllOrders.jsx
+│       │   ├── AoutUs.jsx
+│       │   ├── Cart.jsx
+│       │   ├── ContactUs.jsx
+│       │   ├── Footer.jsx
+│       │   ├── GoogleMapComponent.js
+│       │   ├── HelpSupport.jsx
+│       │   ├── Home.jsx
+│       │   ├── Login.jsx
+│       │   ├── NavbarTop.jsx
+│       │   ├── Products.jsx
+│       │   └── Register.jsx
+│       └── redux/
+│           ├── store.jsx
+│           ├── actions/
+│           │   └── cartActions.jsx
+│           └── reducers/
+│               └── cartReducer.jsx
+├── server/
+│   ├── .DS_Store
+│   ├── .env
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── server.js
+│   ├── config/
+│   │   └── database.js
+│   ├── controllers/
+│   │   └── userController.js
+│   ├── models/
+│   │   ├── cart.js
+│   │   ├── delivered.js
+│   │   ├── product.js
+│   │   └── userModel.js
+│   └── routes/
+│       ├── payment.js
+│       └── userRoutes.js
